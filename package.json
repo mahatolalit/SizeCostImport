@@ -2,6 +2,10 @@
   "name": "sizecostimport",
   "displayName": "Size-Cost-Import",
   "description": "Display the size of imported packages inline.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahatolalit/SizeCostImport"
+  },
   "version": "0.0.5",
   "publisher": "mahatolalit",
   "author": {
