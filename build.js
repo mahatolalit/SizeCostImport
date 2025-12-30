@@ -48,6 +48,10 @@ async function main() {
         await ctx.rebuild();
         await ctx.dispose();
     }
+
+    // Copy icon to dist
+    const fs = require('fs');
+    fs.copyFileSync('src/assets/sci_icon.png', 'dist/sci_icon.png');
 }
 
 main().catch(e => {
