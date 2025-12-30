@@ -2,6 +2,8 @@
 
 Display the size of imported packages inline in your code.
 
+![Size Cost Import Demo](https://raw.githubusercontent.com/mahatolalit/assets/refs/heads/main/sci-images/img3.png)
+
 ## Description
 
 **Size-Cost-Import** helps you manage the size of your JavaScript and TypeScript applications by displaying the cost of imported packages right in the editor. As you code, this extension calculates and displays the gzipped size of your imports, providing immediate feedback on the "weight" you are adding to your bundle.
