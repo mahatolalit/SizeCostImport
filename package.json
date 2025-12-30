@@ -41,16 +41,22 @@
     "onLanguage:javascriptreact",
     "onLanguage:typescriptreact"
   ],
-  "main": "./out/extension.js",
+  "main": "./dist/extension.js",
   "contributes": {},
   "scripts": {
-    "vscode:prepublish": "npm run compile",
+    "vscode:prepublish": "node ./build.js --production",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
+    "watch": "tsc -watch -p ./",
+    "package": "node ./build.js --production",
+    "compile-esbuild": "node ./build.js",
+    "watch-esbuild": "node ./build.js --watch",
+    "pack": "vsce package"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/vscode": "^1.80.0",
+    "@vscode/vsce": "^3.7.1",
+    "esbuild": "^0.27.2",
     "typescript": "^5.0.0"
   }
 }
