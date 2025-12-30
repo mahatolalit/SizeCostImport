@@ -1,0 +1,36 @@
+{
+  "name": "sizecostimport",
+  "displayName": "Size-Cost-Import",
+  "description": "Display the size of imported packages inline.",
+  "version": "0.0.5",
+  "publisher": "mahatolalit",
+  "author": {
+    "name": "Lalit Mahato",
+    "url": "https://github.com/mahatolalit"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/lalitmahato"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
+  }
+}
