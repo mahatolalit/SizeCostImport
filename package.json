@@ -2,6 +2,21 @@
   "name": "sizecostimport",
   "displayName": "Size-Cost-Import",
   "description": "Display the size of imported packages inline.",
+  "keywords": [
+    "bundle-size",
+    "import-cost",
+    "package-size",
+    "npm",
+    "javascript",
+    "typescript",
+    "performance",
+    "visualization",
+    "size"
+  ],
+  "categories": [
+    "Visualization",
+    "Other"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mahatolalit/SizeCostImport"
