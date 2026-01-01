@@ -42,6 +42,9 @@ This extension currently works out-of-the-box and does not require additional co
 
 ## Release Notes
 
+### 0.0.7
+- Added Advanced Parsing (AST-based).
+
 ### 0.0.6
 - Added rate limiting to prevent getting blocked by API provider.
 
