@@ -22,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/mahatolalit/SizeCostImport"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "mahatolalit",
   "author": {
     "name": "Lalit Mahato",
@@ -44,6 +44,9 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {},
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
   "scripts": {
     "vscode:prepublish": "node ./build.js --production",
     "compile": "tsc -p ./",
@@ -57,7 +60,6 @@
     "@types/node": "^20.0.0",
     "@types/vscode": "^1.80.0",
     "@vscode/vsce": "^3.7.1",
-    "esbuild": "^0.27.2",
-    "typescript": "^5.0.0"
+    "esbuild": "^0.27.2"
   }
 }
