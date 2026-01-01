@@ -42,6 +42,9 @@ This extension currently works out-of-the-box and does not require additional co
 
 ## Release Notes
 
+### 0.1.0
+- Added Version-Aware Fetching of packages.
+
 ### 0.0.7
 - Added Advanced Parsing (AST-based).
 
