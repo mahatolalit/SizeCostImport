@@ -1,6 +1,6 @@
 {
   "name": "sizecostimport",
-  "displayName": "Size-Cost-Import",
+  "displayName": "Size Cost Import",
   "description": "Display the size of imported packages inline.",
   "icon": "dist/sci_icon.png",
   "keywords": [
